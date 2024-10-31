@@ -91,7 +91,7 @@ async function createCert() {
   }
   fs.writeFileSync(clientSettingsPath, JSON.stringify(clientSettings, null, '  '))
 
-  server.forAnyRequest().withUrlMatching(/purchase/g).always().thenCallback(async(req)=>{
+  server.forAnyRequest().withUrlMatching(/purchase/g).withHeaders({"roblox-universe-id": "3317679266"}).always().thenCallback(async(req)=>{
     //delete the body if its a get or head request its not allowed there
     if (req.method=='GET' || req.method=="HEAD") {
       delete req.body
