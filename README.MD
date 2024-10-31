@@ -1,4 +1,4 @@
-# pls donate header stripper
+# pls donate purchase header remover
 it does what it says on the tin, it alters requests from Roblox to strip some headers
 in particular, for any url that has "purchase" in it, the following headers are removed
 if and only if Roblox-Universe-Id is set to 3317679266:
