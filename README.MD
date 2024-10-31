@@ -21,8 +21,9 @@ having 10% be given to hazem
 - every time you want to donate in pls donate without giving hazem money, open 'run.bat' **before opening roblox**
 - once youre done just press ctrl+c with the terminal focused to close the script, it will clean up after itself.
 
-# uh now i cant play roblox without it open
-this script only modifes like two things, and they can be relatively easily reverted if the script is giving trouble.
+# something happened when i closed it and now i cant open roblox anymore
+this script only modifes two things, and while it's supposed to reset them after closing, it might not
+have. luckily they aren't difficult to manually fix :D
 - open the Bloxstrap fflag editor, and delete the flag "DFStringHttpCurlProxyHostAndPort" and then save
 - press Windows + R and enter "%localappdata%\Bloxstrap\Modifications\ssl" and press enter
 - delete 'cacert.pem' in that folder
